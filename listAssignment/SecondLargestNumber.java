@@ -15,7 +15,7 @@ public class SecondLargestNumber {
 		Collections.sort(list);
 		int length = list.size();
 		
-		System.out.println("The second largest number is  "+list.get(4));
+		System.out.println("The second largest number is  "+list.get(length-2));
 
 	}
 
